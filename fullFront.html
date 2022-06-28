@@ -1,0 +1,1026 @@
+<html>
+  <head>
+    <style>
+      @font-face {
+        font-family: WaterBrush-Regular;
+        src: url(https://storage.googleapis.com/mobilo-dev-1f409.appspot.com/templates/MCC_3299/WaterBrush-Regular.ttf?GoogleAccessId=firebase-adminsdk-xq13h%40mobilo-dev-1f409.iam.gserviceaccount.com&Expires=16731014400&Signature=1xM7m3fCrei778eqBvrU1P%2BbkI2s5jZ0fTjw4I%2BdkRuA5qqYbfasr8ZeDE246NLmMhwGsOlcQ48V%2FGH3VSlNVk4FrZrEHsHhFPXX%2FWXw0moZ2kGazMLlveWR0L8zQuQSHDn5EpUkTEXZkmb2wQnYPal6QQfmF2%2FFUUmWkxPV%2FxbnmIxYzsF%2BcgqgV7gGI0y1l163YmTud7e1V%2FmCZtO1zDyOU%2FQUoa1sF1IhHiJuhkwrjDlApf4mSGu6yzCI%2BD6iifFFkAGbmelrnDUdeZjsyw5gHsCGbiWtnas0GwP1GQq8uVdYQB62NUXlveBZGpQgvZZRiyn8sqe58yTMV3XsQQ%3D%3D);
+      }
+      @font-face {
+        font-family: SquarePeg-Regular;
+        src: url(https://storage.googleapis.com/mobilo-dev-1f409.appspot.com/templates/MCC_3299/SquarePeg-Regular.ttf?GoogleAccessId=firebase-adminsdk-xq13h%40mobilo-dev-1f409.iam.gserviceaccount.com&Expires=16731014400&Signature=y0mXO8z2H6f%2B0QsYXZdvhUEQjLpkL9lWYwoCxzSrn1u7UkQqWw7mNS6eGg9fW3HBCmNN4AFmUkWVjQuNCwwX4Umezr6zIyrtW8yfsEmIxsZyGrcfzVPwI562ouhfapFmq5cPQwC8Wh9%2FvWCHAQ6sha8xjTCf92zj6M35uugFPhHq%2BmgZtUegUy%2F%2BEq%2FC8%2FM%2FLDXI8KTKo2nFIgVST0qHlMqt8JkfjzAYknNRg4bC1qHAc1maCZdSBOLPy1clscL1ixGhfTOhMANRFj1ZHpSx1%2Fl7H32iMe6DhM%2BtK7j5AFqxJ8lNDPQ4u8TKvJoFeyedZ116rWp1X0gPpkf8aRALag%3D%3D);
+      }
+    </style>
+  </head>
+  <body>
+  <div
+    class="ant-card ant-card-bordered card-layout-front"
+    style="
+      background-color: rgb(249, 200, 200);
+      background-image: url('undefined');
+      background-size: cover;
+      width: 450px;
+      height: 250px;
+    "
+  >
+    <div class="ant-card-body" style="">
+      <div
+        class="react-draggable react-draggable-dragged"
+        style="
+          position: absolute;
+          user-select: auto;
+          width: auto;
+          height: auto;
+          display: inline-block;
+          top: 0px;
+          left: 0px;
+          cursor: move;
+          transform: translate(189px, 121px);
+          max-width: 9.0072e15px;
+          max-height: 9.0072e15px;
+          box-sizing: border-box;
+          flex-shrink: 0;
+        "
+      >
+        <input
+          class="ant-input ant-input-sm editable-input"
+          type="text"
+          value="Inspired by thread"
+          hidden=""
+        /><span
+          id="customField"
+          class="card-content"
+          style="
+            font-family: SquarePeg-Regular;
+            font-size: 16px;
+            color: rgb(40, 7, 80);
+          "
+          >Inspired by thread</span
+        ><span
+          ><div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              top: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              right: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              bottom: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              left: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              top: -10px;
+              cursor: ne-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              bottom: -10px;
+              cursor: se-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              bottom: -10px;
+              cursor: sw-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              top: -10px;
+              cursor: nw-resize;
+            "
+          ></div
+        ></span>
+      </div>
+      <div
+        class="react-draggable react-draggable-dragged"
+        style="
+          position: absolute;
+          user-select: auto;
+          width: auto;
+          height: auto;
+          display: inline-block;
+          top: 0px;
+          left: 0px;
+          cursor: move;
+          transform: translate(8px, 177px);
+          max-width: 9.0072e15px;
+          max-height: 9.0072e15px;
+          box-sizing: border-box;
+          flex-shrink: 0;
+        "
+      >
+        <span
+          id="firstName"
+          class="card-content"
+          style="
+            font-family: WaterBrush-Regular;
+            font-size: 20px;
+            color: rgb(62, 3, 79);
+          "
+          >Vishwa</span
+        ><span
+          ><div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              top: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              right: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              bottom: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              left: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              top: -10px;
+              cursor: ne-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              bottom: -10px;
+              cursor: se-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              bottom: -10px;
+              cursor: sw-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              top: -10px;
+              cursor: nw-resize;
+            "
+          ></div
+        ></span>
+      </div>
+      <div
+        class="react-draggable react-draggable-dragged"
+        style="
+          position: absolute;
+          user-select: auto;
+          width: auto;
+          height: auto;
+          display: inline-block;
+          top: 0px;
+          left: 0px;
+          cursor: move;
+          transform: translate(65px, 176px);
+          max-width: 9.0072e15px;
+          max-height: 9.0072e15px;
+          box-sizing: border-box;
+          flex-shrink: 0;
+        "
+      >
+        <span
+          id="lastName"
+          class="card-content"
+          style="
+            font-family: WaterBrush-Regular;
+            font-size: 20px;
+            color: rgb(56, 11, 81);
+          "
+          >Derasariya</span
+        ><span
+          ><div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              top: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              right: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              bottom: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              left: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              top: -10px;
+              cursor: ne-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              bottom: -10px;
+              cursor: se-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              bottom: -10px;
+              cursor: sw-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              top: -10px;
+              cursor: nw-resize;
+            "
+          ></div
+        ></span>
+      </div>
+      <div
+        class="react-draggable react-draggable-dragged"
+        style="
+          position: absolute;
+          user-select: auto;
+          width: auto;
+          height: auto;
+          display: inline-block;
+          top: 0px;
+          left: 0px;
+          cursor: move;
+          transform: translate(9px, 204px);
+          max-width: 9.0072e15px;
+          max-height: 9.0072e15px;
+          box-sizing: border-box;
+          flex-shrink: 0;
+        "
+      >
+        <span
+          id="email"
+          class="card-content"
+          style="
+            font-family: WaterBrush-Regular;
+            font-size: 20px;
+            color: rgb(52, 17, 95);
+          "
+          >vishwa@logicwind.cp</span
+        ><span
+          ><div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              top: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              right: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              bottom: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              left: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              top: -10px;
+              cursor: ne-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              bottom: -10px;
+              cursor: se-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              bottom: -10px;
+              cursor: sw-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              top: -10px;
+              cursor: nw-resize;
+            "
+          ></div
+        ></span>
+      </div>
+      <div
+        class="react-draggable"
+        style="
+          position: absolute;
+          user-select: auto;
+          width: auto;
+          height: auto;
+          display: inline-block;
+          top: 0px;
+          left: 0px;
+          cursor: move;
+          transform: translate(0px, 0px);
+          max-width: 9.0072e15px;
+          max-height: 9.0072e15px;
+          box-sizing: border-box;
+          flex-shrink: 0;
+        "
+      >
+        <span
+          ><div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              top: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              right: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              bottom: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              left: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              top: -10px;
+              cursor: ne-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              bottom: -10px;
+              cursor: se-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              bottom: -10px;
+              cursor: sw-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              top: -10px;
+              cursor: nw-resize;
+            "
+          ></div
+        ></span>
+      </div>
+      <div
+        class="react-draggable"
+        style="
+          position: absolute;
+          user-select: auto;
+          width: auto;
+          height: auto;
+          display: inline-block;
+          top: 0px;
+          left: 0px;
+          cursor: move;
+          transform: translate(0px, 0px);
+          max-width: 9.0072e15px;
+          max-height: 9.0072e15px;
+          box-sizing: border-box;
+          flex-shrink: 0;
+        "
+      >
+        <span
+          ><div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              top: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              right: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              bottom: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              left: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              top: -10px;
+              cursor: ne-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              bottom: -10px;
+              cursor: se-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              bottom: -10px;
+              cursor: sw-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              top: -10px;
+              cursor: nw-resize;
+            "
+          ></div
+        ></span>
+      </div>
+      <div
+        class="react-draggable react-draggable-dragged"
+        style="
+          position: absolute;
+          user-select: auto;
+          width: 77px;
+          height: 39px;
+          display: inline-block;
+          top: 0px;
+          left: 0px;
+          cursor: move;
+          transform: translate(184px, 92px);
+          max-width: 9.0072e15px;
+          max-height: 9.0072e15px;
+          box-sizing: border-box;
+          flex-shrink: 0;
+        "
+      >
+        <span
+          id="company"
+          class="card-content"
+          style="
+            font-family: WaterBrush-Regular;
+            font-size: 24px;
+            color: rgb(35, 12, 70);
+          "
+          >Logicwind</span
+        ><span
+          ><div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              top: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              right: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              bottom: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              left: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              top: -10px;
+              cursor: ne-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              bottom: -10px;
+              cursor: se-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              bottom: -10px;
+              cursor: sw-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              top: -10px;
+              cursor: nw-resize;
+            "
+          ></div
+        ></span>
+      </div>
+      <div
+        class="react-draggable"
+        style="
+          position: absolute;
+          user-select: auto;
+          width: auto;
+          height: auto;
+          display: inline-block;
+          top: 0px;
+          left: 0px;
+          cursor: move;
+          transform: translate(0px, 0px);
+          max-width: 9.0072e15px;
+          max-height: 9.0072e15px;
+          box-sizing: border-box;
+          flex-shrink: 0;
+        "
+      >
+        <span
+          ><div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              top: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              right: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 100%;
+              height: 10px;
+              bottom: -5px;
+              left: 0px;
+              cursor: row-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 10px;
+              height: 100%;
+              top: 0px;
+              left: -5px;
+              cursor: col-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              top: -10px;
+              cursor: ne-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              right: -10px;
+              bottom: -10px;
+              cursor: se-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              bottom: -10px;
+              cursor: sw-resize;
+            "
+          ></div>
+          <div
+            class=""
+            style="
+              position: absolute;
+              user-select: none;
+              width: 20px;
+              height: 20px;
+              left: -10px;
+              top: -10px;
+              cursor: nw-resize;
+            "
+          ></div
+        ></span>
+      </div>
+      <div
+        class="__resizable_base__"
+        style="
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          transform: scale(0, 0);
+          left: 0px;
+          flex: 0 1 0%;
+        "
+      ></div>
+    </div>
+  </div>
+</body>
+</html>
